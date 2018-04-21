@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9493FAA3-FC1F-49CB-B0F0-E7FF3593B08B}"
 	ProjectSection(SolutionItems) = preProject
@@ -26,6 +26,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsExample", "examples\FormsExample\FormsExample.csproj", "{693C8A54-2FA1-408B-9896-7CB1E5E9E257}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleHook", "examples\ConsoleHook\ConsoleHook.csproj", "{490FBC6C-B347-4C33-B8EF-5C67C7C4C884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsReplacementLib", "FormsReplacementLib\FormsReplacementLib.csproj", "{A44075F1-DA99-48A8-8170-341991B19F7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseKeyHook.NetStandard", "MouseKeyHook.NetStandard\MouseKeyHook.NetStandard.csproj", "{9CF4EDE0-5621-487A-983C-3C09000E53AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +101,30 @@ Global
 		{490FBC6C-B347-4C33-B8EF-5C67C7C4C884}.Release|x64.Build.0 = Release|Any CPU
 		{490FBC6C-B347-4C33-B8EF-5C67C7C4C884}.Release|x86.ActiveCfg = Release|Any CPU
 		{490FBC6C-B347-4C33-B8EF-5C67C7C4C884}.Release|x86.Build.0 = Release|Any CPU
+		{A44075F1-DA99-48A8-8170-341991B19F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44075F1-DA99-48A8-8170-341991B19F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44075F1-DA99-48A8-8170-341991B19F7D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A44075F1-DA99-48A8-8170-341991B19F7D}.Debug|x64.Build.0 = Debug|Any CPU
+		{A44075F1-DA99-48A8-8170-341991B19F7D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A44075F1-DA99-48A8-8170-341991B19F7D}.Debug|x86.Build.0 = Debug|Any CPU
+		{A44075F1-DA99-48A8-8170-341991B19F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44075F1-DA99-48A8-8170-341991B19F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44075F1-DA99-48A8-8170-341991B19F7D}.Release|x64.ActiveCfg = Release|Any CPU
+		{A44075F1-DA99-48A8-8170-341991B19F7D}.Release|x64.Build.0 = Release|Any CPU
+		{A44075F1-DA99-48A8-8170-341991B19F7D}.Release|x86.ActiveCfg = Release|Any CPU
+		{A44075F1-DA99-48A8-8170-341991B19F7D}.Release|x86.Build.0 = Release|Any CPU
+		{9CF4EDE0-5621-487A-983C-3C09000E53AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF4EDE0-5621-487A-983C-3C09000E53AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF4EDE0-5621-487A-983C-3C09000E53AF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9CF4EDE0-5621-487A-983C-3C09000E53AF}.Debug|x64.Build.0 = Debug|Any CPU
+		{9CF4EDE0-5621-487A-983C-3C09000E53AF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9CF4EDE0-5621-487A-983C-3C09000E53AF}.Debug|x86.Build.0 = Debug|Any CPU
+		{9CF4EDE0-5621-487A-983C-3C09000E53AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF4EDE0-5621-487A-983C-3C09000E53AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF4EDE0-5621-487A-983C-3C09000E53AF}.Release|x64.ActiveCfg = Release|Any CPU
+		{9CF4EDE0-5621-487A-983C-3C09000E53AF}.Release|x64.Build.0 = Release|Any CPU
+		{9CF4EDE0-5621-487A-983C-3C09000E53AF}.Release|x86.ActiveCfg = Release|Any CPU
+		{9CF4EDE0-5621-487A-983C-3C09000E53AF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -105,5 +133,8 @@ Global
 		{F9B78F1A-F065-4BB4-A15B-393DFFE8DB0B} = {1DE6BB2E-ED17-4507-9E71-65DA4580C131}
 		{693C8A54-2FA1-408B-9896-7CB1E5E9E257} = {1DE6BB2E-ED17-4507-9E71-65DA4580C131}
 		{490FBC6C-B347-4C33-B8EF-5C67C7C4C884} = {1DE6BB2E-ED17-4507-9E71-65DA4580C131}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A6F9FF3-9E2D-463C-B392-3E280E4F36EB}
 	EndGlobalSection
 EndGlobal
